@@ -6,12 +6,6 @@ Modbus Protocol Specification
 This module contains Modbus protocol constants, function codes, exception codes,
 and protocol-specific parsing functions.
 
-Author: Your Name
-Created: 2024-12-19
-Last Modified: 2024-12-19
-Version: 1.0.0
-License: MIT
-
 Description:
     Complete Modbus protocol specification including TCP and RTU variants,
     function codes, exception codes, and data extraction functions.

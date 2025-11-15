@@ -1,6 +1,3 @@
-# -- Coding: utf-8 --
-# @Version: 1.0.0
-# @Time: 2024/11/22 16:41
 
 from enum import Enum
 
