@@ -1,0 +1,40 @@
+{
+  "session_key": "('192.168.1.13', '192.168.1.67', 6)",
+  "dataset_name": "wadi_enip",
+  "merge_type": "static",
+  "block_coverage": "504_504",
+  "block_ids": [
+    1
+  ],
+  "block_infos": [
+    {
+      "block_index": 1,
+      "start_position": 504,
+      "end_position": 504
+    }
+  ],
+  "solutions": [
+    {
+      "solution_index": 0,
+      "block_ids": [
+        1
+      ],
+      "fields": [
+        {
+          "absolute_start_pos": 504,
+          "start_pos": 0,
+          "end_pos": 0,
+          "length": 1,
+          "type": "UINT8",
+          "endian": "n/a",
+          "confidence": 0.6549999999999999,
+          "is_dynamic": false
+        }
+      ],
+      "fields_total_reward": 0.6331749999999999,
+      "fields_avg_confidence": 0.6549999999999999,
+      "overlap_regions": [],
+      "merged_from_solution_indices": null
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "HMI_1": {
+    "session_key": "(('192.168.1.3', '192.168.1.63', 6), 0, 295)",
+    "solution_index": 0,
+    "total_similarity_score": 0.8748164661739338,
+    "matched_total_score": 0.892877989243673,
+    "matched_coverage": 0.8571428571428571,
+    "solution_total_reward": 0.802570373894977,
+    "matched_coverage_weight": 0.3,
+    "matched_score_weight": 0.8,
+    "matched_mapping": {
+      "HMI_1_P_006.Status": "field_73",
+      "HMI_1_LT_001.PV": "field_89",
+      "HMI_1_FIT_001.PV": "field_40",
+      "HMI_1_AIT_001.PV": "field_4",
+      "HMI_1_AIT_002.PV": "field_11",
+      "HMI_1_AIT_003.PV": "field_19"
+    },
+    "matched_scores": {
+      "HMI_1_P_006.Status": 0.9319404231627515,
+      "HMI_1_LT_001.PV": 0.993878944355802,
+      "HMI_1_FIT_001.PV": 0.9182945638128126,
+      "HMI_1_AIT_001.PV": 0.8566196117297702,
+      "HMI_1_AIT_002.PV": 0.9542007109353623,
+      "HMI_1_AIT_003.PV": 0.7942240211533527
+    },
+    "unmatched_columns": [
+      "HMI_1_AIT_004.PV"
+    ],
+    "unmatched_column_scores": {
+      "HMI_1_AIT_004.PV": {
+        "best_field_name": "field_19",
+        "best_field_score": 0.528605497639267,
+        "threshold": 0.55,
+        "is_enumeration": false
+      }
+    }
+  },
+  "HMI_3": {
+    "session_key": "(('192.168.1.53', '192.168.1.63', 6), 0, 278)",
+    "solution_index": 0,
+    "total_similarity_score": 0.8310719810552974,
+    "matched_total_score": 0.8418671996280124,
+    "matched_coverage": 0.8333333333333334,
+    "solution_total_reward": 0.7878911067644374,
+    "matched_coverage_weight": 0.3,
+    "matched_score_weight": 0.8,
+    "matched_mapping": {
+      "HMI_3_LT_001.PV": "field_51",
+      "HMI_3_FIT_001.PV": "field_39",
+      "HMI_3_AIT_001.PV": "field_8",
+      "HMI_3_AIT_002.PV": "field_14",
+      "HMI_3_AIT_003.PV": "field_16"
+    },
+    "matched_scores": {
+      "HMI_3_LT_001.PV": 0.9688665584863503,
+      "HMI_3_FIT_001.PV": 0.8932620013748576,
+      "HMI_3_AIT_001.PV": 0.8572264562342494,
+      "HMI_3_AIT_002.PV": 0.7805228956431128,
+      "HMI_3_AIT_003.PV": 0.7277449427472332
+    },
+    "unmatched_columns": [
+      "HMI_3_AIT_004.PV"
+    ],
+    "unmatched_column_scores": {
+      "HMI_3_AIT_004.PV": {
+        "best_field_name": "field_51",
+        "best_field_score": 0.45964576293703047,
+        "threshold": 0.55,
+        "is_enumeration": false
+      }
+    }
+  },
+  "HMI_2": {
+    "session_key": "(('192.168.1.13', '192.168.1.63', 6), 0, 979)",
+    "solution_index": 0,
+    "total_similarity_score": 0.5494193735021605,
+    "matched_total_score": 0.48822810493468,
+    "matched_coverage": 0.15,
+    "solution_total_reward": 0.7941844477720825,
+    "matched_coverage_weight": 0.3,
+    "matched_score_weight": 0.8,
+    "matched_mapping": {
+      "HMI_2_MV_301.Cmd": "field_0",
+      "HMI_2_FIT_001.PV": "field_175",
+      "HMI_2_MV_001.Status": "field_227"
+    },
+    "matched_scores": {
+      "HMI_2_MV_301.Cmd": 0.6914174226498793,
+      "HMI_2_FIT_001.PV": 0.5723877924531473,
+      "HMI_2_MV_001.Status": 0.6357438060456021
+    },
+    "unmatched_columns": [
+      "HMI_2_LT_001.PV",
+      "HMI_2_LT_002.PV",
+      "HMI_2_PIT_001.PV",
+      "HMI_2_P_003.Speed",
+      "HMI_2_PIC_003.SP",
+      "HMI_2_P_004.Speed",
+      "HMI_2_FIT_002.PV",
+      "HMI_2_FIT_003.PV",
+      "HMI_2_PIT_002.PV",
+      "HMI_2_PIT_003.PV",
+      "HMI_2_DPIT_001.PV",
+      "HMI_2_FQ_101.Pv",
+      "HMI_2_FQ_201.Pv",
+      "HMI_2_FQ_301.Pv",
+      "HMI_2_FQ_401.Pv",
+      "HMI_2_FQ_501.Pv",
+      "HMI_2_FQ_601.Pv"
+    ],
+    "unmatched_column_scores": {
+      "HMI_2_LT_001.PV": {
+        "best_field_name": "field_411",
+        "best_field_score": 0.32148261081321977,
+        "threshold": 0.55,
+        "is_enumeration": false
+      },
+      "HMI_2_LT_002.PV": {
+        "best_field_name": "field_411",
+        "best_field_score": 0.3188286721007609,
+        "threshold": 0.55,
+        "is_enumeration": false
+      },
+      "HMI_2_PIT_001.PV": {
+        "best_field_name": "field_267",
+        "best_field_score": 0.20329183315633526,
+        "threshold": 0.55,
+        "is_enumeration": false
+      },
+      "HMI_2_P_003.Speed": {
+        "best_field_name": "field_180",
+        "best_field_score": 0.5222091734841484,
+        "threshold": 0.55,
+        "is_enumeration": false
+      },
+      "HMI_2_PIC_003.SP": {
+        "best_field_name": "field_176",
+        "best_field_score": 0.4182868005267741,
+        "threshold": 0.55,
+        "is_enumeration": true
+      },
+      "HMI_2_P_004.Speed": {
+        "best_field_name": "field_180",
+        "best_field_score": 0.38943425469943527,
+        "threshold": 0.55,
+        "is_enumeration": false
+      },
+      "HMI_2_FIT_002.PV": {
+        "best_field_name": "field_176",
+        "best_field_score": 0.36597273459162977,
+        "threshold": 0.55,
+        "is_enumeration": false
+      },
+      "HMI_2_FIT_003.PV": {
+        "best_field_name": "field_180",
+        "best_field_score": 0.28619402432314256,
+        "threshold": 0.55,
+        "is_enumeration": false
+      },
+      "HMI_2_PIT_002.PV": {
+        "best_field_name": "field_411",
+        "best_field_score": 0.21396542816059688,
+        "threshold": 0.55,
+        "is_enumeration": false
+      },
+      "HMI_2_PIT_003.PV": {
+        "best_field_name": "field_230",
+        "best_field_score": 0.33621812691863673,
+        "threshold": 0.55,
+        "is_enumeration": false
+      },
+      "HMI_2_DPIT_001.PV": {
+        "best_field_name": "field_352",
+        "best_field_score": 0.23119606303395046,
+        "threshold": 0.55,
+        "is_enumeration": false
+      },
+      "HMI_2_FQ_101.Pv": {
+        "best_field_name": "field_444",
+        "best_field_score": 0.4844967841418099,
+        "threshold": 0.55,
+        "is_enumeration": false
+      },
+      "HMI_2_FQ_201.Pv": {
+        "best_field_name": "field_398",
+        "best_field_score": 0.4627178826748498,
+        "threshold": 0.55,
+        "is_enumeration": false
+      },
+      "HMI_2_FQ_301.Pv": {
+        "best_field_name": "field_175",
+        "best_field_score": 0.33285123887848955,
+        "threshold": 0.55,
+        "is_enumeration": false
+      },
+      "HMI_2_FQ_401.Pv": {
+        "best_field_name": "field_444",
+        "best_field_score": 0.4407939508441772,
+        "threshold": 0.55,
+        "is_enumeration": false
+      },
+      "HMI_2_FQ_501.Pv": {
+        "best_field_name": "field_444",
+        "best_field_score": 0.4834548528008371,
+        "threshold": 0.55,
+        "is_enumeration": false
+      },
+      "HMI_2_FQ_601.Pv": {
+        "best_field_name": "field_398",
+        "best_field_score": 0.4139386438514334,
+        "threshold": 0.55,
+        "is_enumeration": false
+      }
+    }
+  }
+}

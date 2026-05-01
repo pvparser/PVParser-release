@@ -1,0 +1,542 @@
+{
+  "HMI_1_AIT_001.PV": {
+    "group_id": "HMI_1",
+    "session_key": [
+      "192.168.1.3",
+      "192.168.1.67",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 3,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_1",
+      "is_dynamic": true,
+      "confidence": 0.87
+    }
+  },
+  "HMI_1_AIT_002.PV": {
+    "group_id": "HMI_1",
+    "session_key": [
+      "192.168.1.3",
+      "192.168.1.67",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 32,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_12",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  },
+  "HMI_1_AIT_003.PV": {
+    "group_id": "HMI_1",
+    "session_key": [
+      "192.168.1.3",
+      "192.168.1.67",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 61,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_23",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  },
+  "HMI_1_AIT_004.PV": {
+    "group_id": "HMI_1",
+    "session_key": [
+      "192.168.1.3",
+      "192.168.1.67",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 115,
+      "length": 8,
+      "type": "FLOAT64",
+      "endian": "little",
+      "field_name": "field_42",
+      "is_dynamic": true,
+      "confidence": 0.8049999999999999
+    }
+  },
+  "HMI_1_FIT_001.PV": {
+    "group_id": "HMI_1",
+    "session_key": [
+      "192.168.1.3",
+      "192.168.1.67",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 160,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_55",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  },
+  "HMI_1_LT_001.PV": {
+    "group_id": "HMI_1",
+    "session_key": [
+      "192.168.1.3",
+      "192.168.1.67",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 205,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_71",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  },
+  "HMI_1_P_006.Status": {
+    "group_id": "HMI_1",
+    "session_key": [
+      "192.168.1.3",
+      "192.168.1.67",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 459,
+      "length": 1,
+      "type": "UINT8",
+      "endian": "n/a",
+      "field_name": "field_149",
+      "is_dynamic": true,
+      "confidence": 0.9349999999999999
+    }
+  },
+  "HMI_3_AIT_001.PV": {
+    "group_id": "HMI_3",
+    "session_key": [
+      "192.168.1.53",
+      "192.168.1.67",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 11,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_3",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  },
+  "HMI_3_AIT_002.PV": {
+    "group_id": "HMI_3",
+    "session_key": [
+      "192.168.1.53",
+      "192.168.1.67",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 36,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_10",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  },
+  "HMI_3_AIT_003.PV": {
+    "group_id": "HMI_3",
+    "session_key": [
+      "192.168.1.53",
+      "192.168.1.67",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 61,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_19",
+      "is_dynamic": true,
+      "confidence": 0.935
+    }
+  },
+  "HMI_3_FIT_001.PV": {
+    "group_id": "HMI_3",
+    "session_key": [
+      "192.168.1.53",
+      "192.168.1.67",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 135,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_40",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  },
+  "HMI_3_LT_001.PV": {
+    "group_id": "HMI_3",
+    "session_key": [
+      "192.168.1.53",
+      "192.168.1.67",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 205,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_62",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  },
+  "HMI_2_MV_301.Cmd": {
+    "group_id": "HMI_2",
+    "session_key": [
+      "192.168.1.13",
+      "192.168.1.67",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 0,
+      "length": 2,
+      "type": "UINT16",
+      "endian": "little",
+      "field_name": "field_0",
+      "is_dynamic": false,
+      "confidence": 0.7314339828220179
+    }
+  },
+  "HMI_2_DPIT_001.PV": {
+    "group_id": "HMI_2",
+    "session_key": [
+      "192.168.1.13",
+      "192.168.1.67",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 493,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_206",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  },
+  "HMI_2_FQ_101.Pv": {
+    "group_id": "HMI_2",
+    "session_key": [
+      "192.168.1.13",
+      "192.168.1.67",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 533,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_226",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  },
+  "HMI_2_FQ_301.Pv": {
+    "group_id": "HMI_2",
+    "session_key": [
+      "192.168.1.13",
+      "192.168.1.67",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 591,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_254",
+      "is_dynamic": true,
+      "confidence": 0.935
+    }
+  },
+  "HMI_2_FQ_401.Pv": {
+    "group_id": "HMI_2",
+    "session_key": [
+      "192.168.1.13",
+      "192.168.1.67",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 620,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_267",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  },
+  "HMI_2_FIT_001.PV": {
+    "group_id": "HMI_2",
+    "session_key": [
+      "192.168.1.13",
+      "192.168.1.67",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 718,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_308",
+      "is_dynamic": true,
+      "confidence": 0.8049999999999999
+    }
+  },
+  "HMI_2_PIT_001.PV": {
+    "group_id": "HMI_2",
+    "session_key": [
+      "192.168.1.13",
+      "192.168.1.67",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 722,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_309",
+      "is_dynamic": true,
+      "confidence": 0.935
+    }
+  },
+  "HMI_2_FIT_002.PV": {
+    "group_id": "HMI_2",
+    "session_key": [
+      "192.168.1.13",
+      "192.168.1.67",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 728,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_312",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  },
+  "HMI_2_FIT_003.PV": {
+    "group_id": "HMI_2",
+    "session_key": [
+      "192.168.1.13",
+      "192.168.1.67",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 750,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_317",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  },
+  "HMI_2_FQ_201.Pv": {
+    "group_id": "HMI_2",
+    "session_key": [
+      "192.168.1.13",
+      "192.168.1.67",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 812,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_341",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  },
+  "HMI_2_FQ_601.Pv": {
+    "group_id": "HMI_2",
+    "session_key": [
+      "192.168.1.13",
+      "192.168.1.67",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 872,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_361",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  },
+  "HMI_2_FQ_501.Pv": {
+    "group_id": "HMI_2",
+    "session_key": [
+      "192.168.1.13",
+      "192.168.1.67",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 892,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_368",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  },
+  "HMI_2_LT_001.PV": {
+    "group_id": "HMI_2",
+    "session_key": [
+      "192.168.1.13",
+      "192.168.1.67",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 1035,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_428",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  },
+  "HMI_2_LT_002.PV": {
+    "group_id": "HMI_2",
+    "session_key": [
+      "192.168.1.13",
+      "192.168.1.67",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 1064,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_437",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  },
+  "HMI_2_MV_001.Status": {
+    "group_id": "HMI_2",
+    "session_key": [
+      "192.168.1.13",
+      "192.168.1.67",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 1197,
+      "length": 1,
+      "type": "UINT8",
+      "endian": "n/a",
+      "field_name": "field_502",
+      "is_dynamic": true,
+      "confidence": 0.9349999999999999
+    }
+  },
+  "HMI_2_P_004.Speed": {
+    "group_id": "HMI_2",
+    "session_key": [
+      "192.168.1.13",
+      "192.168.1.67",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 1336,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_569",
+      "is_dynamic": true,
+      "confidence": 0.935
+    }
+  },
+  "HMI_2_PIT_003.PV": {
+    "group_id": "HMI_2",
+    "session_key": [
+      "192.168.1.13",
+      "192.168.1.67",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 1369,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_581",
+      "is_dynamic": true,
+      "confidence": 0.935
+    }
+  },
+  "HMI_2_PIT_002.PV": {
+    "group_id": "HMI_2",
+    "session_key": [
+      "192.168.1.13",
+      "192.168.1.67",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 1440,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_616",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  }
+}

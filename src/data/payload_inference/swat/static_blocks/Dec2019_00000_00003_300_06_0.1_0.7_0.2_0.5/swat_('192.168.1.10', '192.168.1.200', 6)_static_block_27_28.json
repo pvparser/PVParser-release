@@ -1,0 +1,94 @@
+{
+  "session_key": "('192.168.1.10', '192.168.1.200', 6)",
+  "dataset_name": "swat",
+  "merge_type": "static",
+  "block_coverage": "27_28",
+  "block_ids": [
+    1
+  ],
+  "block_infos": [
+    {
+      "block_index": 1,
+      "start_position": 27,
+      "end_position": 28
+    }
+  ],
+  "solutions": [
+    {
+      "solution_index": 0,
+      "block_ids": [
+        1
+      ],
+      "fields": [
+        {
+          "absolute_start_pos": 27,
+          "start_pos": 0,
+          "end_pos": 1,
+          "length": 2,
+          "type": "UINT16",
+          "endian": "little",
+          "confidence": 0.7314339828220179,
+          "is_dynamic": false
+        }
+      ],
+      "fields_total_reward": 0.6778888799508805,
+      "fields_avg_confidence": 0.7314339828220179,
+      "overlap_regions": [],
+      "merged_from_solution_indices": null
+    },
+    {
+      "solution_index": 1,
+      "block_ids": [
+        1
+      ],
+      "fields": [
+        {
+          "absolute_start_pos": 27,
+          "start_pos": 0,
+          "end_pos": 0,
+          "length": 1,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 28,
+          "start_pos": 1,
+          "end_pos": 1,
+          "length": 1,
+          "type": "UINT8",
+          "endian": "n/a",
+          "confidence": 0.6549999999999999,
+          "is_dynamic": false
+        }
+      ],
+      "fields_total_reward": 0.6200125000000001,
+      "fields_avg_confidence": 0.6325,
+      "overlap_regions": [],
+      "merged_from_solution_indices": null
+    },
+    {
+      "solution_index": 2,
+      "block_ids": [
+        1
+      ],
+      "fields": [
+        {
+          "absolute_start_pos": 27,
+          "start_pos": 0,
+          "end_pos": 1,
+          "length": 2,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        }
+      ],
+      "fields_total_reward": 0.6068500000000001,
+      "fields_avg_confidence": 0.61,
+      "overlap_regions": [],
+      "merged_from_solution_indices": null
+    }
+  ]
+}

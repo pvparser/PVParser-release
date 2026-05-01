@@ -1,0 +1,170 @@
+{
+  "4": {
+    "session_key": "(('192.168.1.200', '192.168.1.40', 6), 0, 154)",
+    "solution_index": 0,
+    "total_similarity_score": 0.952257360659871,
+    "matched_total_score": 0.9943099134919675,
+    "matched_coverage": 1.0,
+    "solution_total_reward": 0.7840471493314849,
+    "matched_coverage_weight": 0.3,
+    "matched_score_weight": 0.8,
+    "matched_mapping": {
+      "LIT401.Pv": "field_22",
+      "FIT401.Pv": "field_14",
+      "AIT402.Pv": "field_7"
+    },
+    "matched_scores": {
+      "LIT401.Pv": 0.9886061316688286,
+      "FIT401.Pv": 0.9896843911886102,
+      "AIT402.Pv": 0.9973233921081363
+    },
+    "unmatched_columns": [],
+    "unmatched_column_scores": {}
+  },
+  "1": {
+    "session_key": "(('192.168.1.10', '192.168.1.200', 6), 0, 128)",
+    "solution_index": 0,
+    "total_similarity_score": 0.9343172498042837,
+    "matched_total_score": 0.9620252808311571,
+    "matched_coverage": 1.0,
+    "solution_total_reward": 0.8234851256967896,
+    "matched_coverage_weight": 0.3,
+    "matched_score_weight": 0.8,
+    "matched_mapping": {
+      "LIT101.Pv": "field_11",
+      "FIT101.Pv": "field_5",
+      "MV101.Status": "field_19",
+      "P101.Status": "field_27"
+    },
+    "matched_scores": {
+      "LIT101.Pv": 0.9868699023845426,
+      "FIT101.Pv": 0.8466450813373305,
+      "MV101.Status": 0.9791867775398643,
+      "P101.Status": 0.9702998434877317
+    },
+    "unmatched_columns": [],
+    "unmatched_column_scores": {}
+  },
+  "2": {
+    "session_key": "(('192.168.1.20', '192.168.1.200', 6), 0, 218)",
+    "solution_index": 0,
+    "total_similarity_score": 0.9314763782673551,
+    "matched_total_score": 0.9629249617524149,
+    "matched_coverage": 1.0,
+    "solution_total_reward": 0.8056820443271157,
+    "matched_coverage_weight": 0.3,
+    "matched_score_weight": 0.8,
+    "matched_mapping": {
+      "FIT201.Pv": "field_19",
+      "AIT201.Pv": "field_2",
+      "AIT202.Pv": "field_7",
+      "AIT203.Pv": "field_13",
+      "MV201.Status": "field_31",
+      "P201.Status": "field_36",
+      "P203.Status": "field_33"
+    },
+    "matched_scores": {
+      "FIT201.Pv": 0.9676377468493739,
+      "AIT201.Pv": 0.8148900168897928,
+      "AIT202.Pv": 0.9648267111065396,
+      "AIT203.Pv": 0.9544970825962341,
+      "MV201.Status": 0.9785780184395988,
+      "P201.Status": 0.9744100208213048,
+      "P203.Status": 0.9744100208213048
+    },
+    "unmatched_columns": [],
+    "unmatched_column_scores": {}
+  },
+  "3": {
+    "session_key": "(('192.168.1.200', '192.168.1.30', 6), 0, 154)",
+    "solution_index": 10,
+    "total_similarity_score": 0.9119120866339251,
+    "matched_total_score": 0.9352125124371802,
+    "matched_coverage": 1.0,
+    "solution_total_reward": 0.8187103834209051,
+    "matched_coverage_weight": 0.3,
+    "matched_score_weight": 0.8,
+    "matched_mapping": {
+      "AIT301.Pv": "field_1",
+      "AIT302.Pv": "field_3",
+      "AIT303.Pv": "field_5",
+      "LIT301.Pv": "field_53",
+      "FIT301.Pv": "field_16",
+      "DPIT301.Pv": "field_8",
+      "MV302.Status": "field_33",
+      "MV303.Status": "field_36",
+      "MV304.Status": "field_39",
+      "P301.Status": "field_32"
+    },
+    "matched_scores": {
+      "AIT301.Pv": 0.9521708232259123,
+      "AIT302.Pv": 0.9784126955682807,
+      "AIT303.Pv": 0.8380495983286552,
+      "LIT301.Pv": 0.9878787082336,
+      "FIT301.Pv": 0.9647437235344833,
+      "DPIT301.Pv": 0.9594997338268103,
+      "MV302.Status": 0.8563300732777275,
+      "MV303.Status": 0.8485779040114244,
+      "MV304.Status": 0.837779905800776,
+      "P301.Status": 0.8510212975806184
+    },
+    "unmatched_columns": [],
+    "unmatched_column_scores": {}
+  },
+  "5": {
+    "session_key": "(('192.168.1.200', '192.168.1.50', 6), 0, 336)",
+    "solution_index": 0,
+    "total_similarity_score": 0.9011284140603921,
+    "matched_total_score": 0.9287058105917885,
+    "matched_coverage": 1.0,
+    "solution_total_reward": 0.7908188279348065,
+    "matched_coverage_weight": 0.3,
+    "matched_score_weight": 0.8,
+    "matched_mapping": {
+      "FIT501.Pv": "field_25",
+      "FIT502.Pv": "field_33",
+      "FIT503.Pv": "field_43",
+      "AIT501.Pv": "field_1",
+      "AIT502.Pv": "field_8",
+      "AIT503.Pv": "field_15",
+      "AIT504.Pv": "field_20",
+      "PIT501.Pv": "field_76",
+      "PIT502.Pv": "field_82",
+      "PIT503.Pv": "field_89"
+    },
+    "matched_scores": {
+      "FIT501.Pv": 0.983256656424221,
+      "FIT502.Pv": 0.9626356883409203,
+      "FIT503.Pv": 0.9366266432629704,
+      "AIT501.Pv": 0.9888056845231303,
+      "AIT502.Pv": 0.862782782731933,
+      "AIT503.Pv": 0.7785780915871854,
+      "AIT504.Pv": 0.7177262676747677,
+      "PIT501.Pv": 0.8851042353407946,
+      "PIT502.Pv": 0.9031628941801164,
+      "PIT503.Pv": 0.9628326358166525
+    },
+    "unmatched_columns": [],
+    "unmatched_column_scores": {}
+  },
+  "6": {
+    "session_key": "(('192.168.1.200', '192.168.1.60', 6), 0, 90)",
+    "solution_index": 0,
+    "total_similarity_score": 0.8485208636075467,
+    "matched_total_score": 0.8595320213640141,
+    "matched_coverage": 1.0,
+    "solution_total_reward": 0.8044762325816772,
+    "matched_coverage_weight": 0.3,
+    "matched_score_weight": 0.8,
+    "matched_mapping": {
+      "FIT601.Pv": "field_3",
+      "P601.Status": "field_13"
+    },
+    "matched_scores": {
+      "FIT601.Pv": 0.6410101830312883,
+      "P601.Status": 0.9576527351516089
+    },
+    "unmatched_columns": [],
+    "unmatched_column_scores": {}
+  }
+}

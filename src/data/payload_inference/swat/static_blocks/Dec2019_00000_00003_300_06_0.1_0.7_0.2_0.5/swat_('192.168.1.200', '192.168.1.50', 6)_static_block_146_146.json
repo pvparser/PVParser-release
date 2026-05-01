@@ -1,0 +1,40 @@
+{
+  "session_key": "('192.168.1.200', '192.168.1.50', 6)",
+  "dataset_name": "swat",
+  "merge_type": "static",
+  "block_coverage": "146_146",
+  "block_ids": [
+    5
+  ],
+  "block_infos": [
+    {
+      "block_index": 5,
+      "start_position": 146,
+      "end_position": 146
+    }
+  ],
+  "solutions": [
+    {
+      "solution_index": 0,
+      "block_ids": [
+        5
+      ],
+      "fields": [
+        {
+          "absolute_start_pos": 146,
+          "start_pos": 0,
+          "end_pos": 0,
+          "length": 1,
+          "type": "UINT8",
+          "endian": "n/a",
+          "confidence": 0.6549999999999999,
+          "is_dynamic": false
+        }
+      ],
+      "fields_total_reward": 0.6331749999999999,
+      "fields_avg_confidence": 0.6549999999999999,
+      "overlap_regions": [],
+      "merged_from_solution_indices": null
+    }
+  ]
+}

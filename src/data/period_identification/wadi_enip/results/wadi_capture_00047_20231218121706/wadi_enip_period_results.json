@@ -1,0 +1,118 @@
+{
+  "metadata": {
+    "dataset_name": "wadi_enip",
+    "created_at": "2025-10-29T14:42:02.516923",
+    "total_periods": 6,
+    "unique_periods": 4,
+    "config_info": {
+      "detection_mode": "dir_len_con",
+      "autocorr_threshold": 0.7,
+      "max_lag": 40,
+      "min_segments": 10,
+      "similarity_threshold": 0.98,
+      "time_jitter_ratio": 1.2,
+      "coverage_threshold": 0.55,
+      "convergence_patience": 50,
+      "best_interval_std_weight": 1.0,
+      "tolerance": 0.95,
+      "save_period_csv": true,
+      "save_result_json": true,
+      "max_workers": 24
+    },
+    "additional_metadata": {
+      "input_folder": "src/data/period_identification/wadi_enip/raw/wadi_capture_00047_20231218121706",
+      "output_folder": "src/data/period_identification/wadi_enip/results/wadi_capture_00047_20231218121706",
+      "scada_ip_filter": "",
+      "total_files_processed": 6,
+      "successful_periods": 6
+    }
+  },
+  "session_period_mapping": {
+    "by_period": {
+      "2": [
+        "('192.168.1.53', '192.168.1.63', 6)",
+        "('192.168.1.3', '192.168.1.63', 6)",
+        "('192.168.1.53', '192.168.1.67', 6)"
+      ],
+      "4": [
+        "('192.168.1.3', '192.168.1.67', 6)"
+      ],
+      "6": [
+        "('192.168.1.13', '192.168.1.67', 6)"
+      ],
+      "3": [
+        "('192.168.1.3', '192.168.1.60', 6)"
+      ]
+    },
+    "by_session": {
+      "('192.168.1.53', '192.168.1.63', 6)": 2,
+      "('192.168.1.3', '192.168.1.63', 6)": 2,
+      "('192.168.1.53', '192.168.1.67', 6)": 2,
+      "('192.168.1.3', '192.168.1.67', 6)": 4,
+      "('192.168.1.13', '192.168.1.67', 6)": 6,
+      "('192.168.1.3', '192.168.1.60', 6)": 3
+    }
+  },
+  "detailed_period_info": {
+    "('192.168.1.53', '192.168.1.63', 6)": {
+      "period": 2,
+      "period_pattern": "C-108-0x0070:0x4C,S-383-0x0070:0xCC",
+      "period_interval": 0.9966722371486517,
+      "period_std": 0.3216300662918596,
+      "autocorr_score": 0.8110518439730782,
+      "coverage": 0.5805555555555556,
+      "similaritys_mean": 1.0,
+      "segment_count": 209
+    },
+    "('192.168.1.3', '192.168.1.67', 6)": {
+      "period": 4,
+      "period_pattern": "C-108-0x0070:0x4C,S-594-0x0070:0xCC,C-108-0x0070:0x4C,S-119-0x0070:0xCC",
+      "period_interval": 0.6786007801691691,
+      "period_std": 0.4103186975193605,
+      "autocorr_score": 0.8182645726243947,
+      "coverage": 0.7848761408083442,
+      "similaritys_mean": 1.0,
+      "segment_count": 301
+    },
+    "('192.168.1.3', '192.168.1.63', 6)": {
+      "period": 2,
+      "period_pattern": "C-108-0x0070:0x4C,S-400-0x0070:0xCC",
+      "period_interval": 0.9774169311704228,
+      "period_std": 0.2883359696876159,
+      "autocorr_score": 0.8259058842713592,
+      "coverage": 0.585635359116022,
+      "similaritys_mean": 1.0,
+      "segment_count": 212
+    },
+    "('192.168.1.53', '192.168.1.67', 6)": {
+      "period": 2,
+      "period_pattern": "C-108-0x0070:0x4C,S-506-0x0070:0xCC",
+      "period_interval": 0.6789632139642254,
+      "period_std": 0.41792183679802924,
+      "autocorr_score": 0.8593930111819217,
+      "coverage": 0.6602150537634408,
+      "similaritys_mean": 1.0,
+      "segment_count": 307
+    },
+    "('192.168.1.13', '192.168.1.67', 6)": {
+      "period": 6,
+      "period_pattern": "C-108-0x0070:0x4C,S-594-0x0070:0xCC,C-108-0x0070:0x4C,S-594-0x0070:0xCC,C-108-0x0070:0x4C,S-594-0x0070:0xCC",
+      "period_interval": 0.700820437821326,
+      "period_std": 0.42932484322011366,
+      "autocorr_score": 0.807921632424772,
+      "coverage": 0.6671744097486672,
+      "similaritys_mean": 1.0,
+      "segment_count": 292
+    },
+    "('192.168.1.3', '192.168.1.60', 6)": {
+      "period": 3,
+      "period_pattern": "C-120-0x0070:0x4C,C-138-0x006F:0x52,C-138-0x006F:0x52",
+      "period_interval": 0.019657155780902005,
+      "period_std": 0.01292219190814618,
+      "autocorr_score": 0.7661254481039245,
+      "coverage": 0.8912992218816317,
+      "similaritys_mean": 1.0,
+      "segment_count": 5040
+    }
+  }
+}

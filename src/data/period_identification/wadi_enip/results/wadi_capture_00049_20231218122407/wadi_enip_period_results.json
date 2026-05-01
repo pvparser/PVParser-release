@@ -1,0 +1,130 @@
+{
+  "metadata": {
+    "dataset_name": "wadi_enip",
+    "created_at": "2025-10-29T14:43:04.478236",
+    "total_periods": 7,
+    "unique_periods": 4,
+    "config_info": {
+      "detection_mode": "dir_len_con",
+      "autocorr_threshold": 0.7,
+      "max_lag": 40,
+      "min_segments": 10,
+      "similarity_threshold": 0.98,
+      "time_jitter_ratio": 1.2,
+      "coverage_threshold": 0.55,
+      "convergence_patience": 50,
+      "best_interval_std_weight": 1.0,
+      "tolerance": 0.95,
+      "save_period_csv": true,
+      "save_result_json": true,
+      "max_workers": 24
+    },
+    "additional_metadata": {
+      "input_folder": "src/data/period_identification/wadi_enip/raw/wadi_capture_00049_20231218122407",
+      "output_folder": "src/data/period_identification/wadi_enip/results/wadi_capture_00049_20231218122407",
+      "scada_ip_filter": "",
+      "total_files_processed": 7,
+      "successful_periods": 7
+    }
+  },
+  "session_period_mapping": {
+    "by_period": {
+      "2": [
+        "('192.168.1.53', '192.168.1.63', 6)",
+        "('192.168.1.3', '192.168.1.63', 6)",
+        "('192.168.1.53', '192.168.1.67', 6)"
+      ],
+      "4": [
+        "('192.168.1.3', '192.168.1.67', 6)",
+        "('192.168.1.13', '192.168.1.63', 6)"
+      ],
+      "6": [
+        "('192.168.1.13', '192.168.1.67', 6)"
+      ],
+      "3": [
+        "('192.168.1.3', '192.168.1.60', 6)"
+      ]
+    },
+    "by_session": {
+      "('192.168.1.53', '192.168.1.63', 6)": 2,
+      "('192.168.1.3', '192.168.1.63', 6)": 2,
+      "('192.168.1.53', '192.168.1.67', 6)": 2,
+      "('192.168.1.3', '192.168.1.67', 6)": 4,
+      "('192.168.1.13', '192.168.1.63', 6)": 4,
+      "('192.168.1.13', '192.168.1.67', 6)": 6,
+      "('192.168.1.3', '192.168.1.60', 6)": 3
+    }
+  },
+  "detailed_period_info": {
+    "('192.168.1.53', '192.168.1.63', 6)": {
+      "period": 2,
+      "period_pattern": "C-108-0x0070:0x4C,S-383-0x0070:0xCC",
+      "period_interval": 1.0005953082671533,
+      "period_std": 0.33179181810870695,
+      "autocorr_score": 0.802308479554733,
+      "coverage": 0.5773480662983426,
+      "similaritys_mean": 1.0,
+      "segment_count": 209
+    },
+    "('192.168.1.3', '192.168.1.67', 6)": {
+      "period": 4,
+      "period_pattern": "C-108-0x0070:0x4C,S-594-0x0070:0xCC,C-108-0x0070:0x4C,S-119-0x0070:0xCC",
+      "period_interval": 0.6522518243545141,
+      "period_std": 0.3294094471541559,
+      "autocorr_score": 0.8247531102189914,
+      "coverage": 0.798469387755102,
+      "similaritys_mean": 1.0,
+      "segment_count": 313
+    },
+    "('192.168.1.3', '192.168.1.63', 6)": {
+      "period": 2,
+      "period_pattern": "C-108-0x0070:0x4C,S-400-0x0070:0xCC",
+      "period_interval": 1.0053809117344976,
+      "period_std": 0.3359348983140788,
+      "autocorr_score": 0.777317320417647,
+      "coverage": 0.5710344827586207,
+      "similaritys_mean": 1.0,
+      "segment_count": 207
+    },
+    "('192.168.1.13', '192.168.1.63', 6)": {
+      "period": 4,
+      "period_pattern": "C-108-0x0070:0x4C,S-594-0x0070:0xCC,C-108-0x0070:0x4C,S-594-0x0070:0xCC",
+      "period_interval": 0.42406268819607157,
+      "period_std": 0.49735625408010276,
+      "autocorr_score": 0.7751977931454466,
+      "coverage": 0.7476160203432931,
+      "similaritys_mean": 1.0,
+      "segment_count": 294
+    },
+    "('192.168.1.53', '192.168.1.67', 6)": {
+      "period": 2,
+      "period_pattern": "C-108-0x0070:0x4C,S-506-0x0070:0xCC",
+      "period_interval": 0.6641443446040535,
+      "period_std": 0.32878435030571573,
+      "autocorr_score": 0.8979818580967049,
+      "coverage": 0.6723768736616702,
+      "similaritys_mean": 1.0,
+      "segment_count": 314
+    },
+    "('192.168.1.13', '192.168.1.67', 6)": {
+      "period": 6,
+      "period_pattern": "C-108-0x0070:0x4C,S-594-0x0070:0xCC,C-108-0x0070:0x4C,S-594-0x0070:0xCC,C-108-0x0070:0x4C,S-594-0x0070:0xCC",
+      "period_interval": 0.6605474027720365,
+      "period_std": 0.3345735571460148,
+      "autocorr_score": 0.8474891488236981,
+      "coverage": 0.6949025487256372,
+      "similaritys_mean": 1.0,
+      "segment_count": 309
+    },
+    "('192.168.1.3', '192.168.1.60', 6)": {
+      "period": 3,
+      "period_pattern": "C-120-0x0070:0x4C,C-138-0x006F:0x52,C-138-0x006F:0x52",
+      "period_interval": 0.019939752549813065,
+      "period_std": 0.013097869159016493,
+      "autocorr_score": 0.7509371352353947,
+      "coverage": 0.883296135322448,
+      "similaritys_mean": 1.0,
+      "segment_count": 5013
+    }
+  }
+}

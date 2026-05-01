@@ -1,0 +1,1666 @@
+{
+  "session_key": "('192.168.1.53', '192.168.1.63', 6)",
+  "dataset_name": "wadi_enip",
+  "merge_type": "overlap",
+  "block_coverage": "45_66",
+  "block_ids": [
+    1,
+    2
+  ],
+  "block_infos": [
+    {
+      "block_index": 1,
+      "initial_start_pos": 52,
+      "initial_end_pos": 54,
+      "initial_length": 3,
+      "extended_start_pos": 45,
+      "extended_end_pos": 61,
+      "extended_length": 17,
+      "head_extension": 7,
+      "tail_extension": 7
+    },
+    {
+      "block_index": 2,
+      "initial_start_pos": 57,
+      "initial_end_pos": 59,
+      "initial_length": 3,
+      "extended_start_pos": 50,
+      "extended_end_pos": 66,
+      "extended_length": 17,
+      "head_extension": 7,
+      "tail_extension": 7
+    }
+  ],
+  "solutions": [
+    {
+      "solution_index": 0,
+      "block_ids": [
+        1,
+        2
+      ],
+      "fields": [
+        {
+          "absolute_start_pos": 45,
+          "start_pos": 0,
+          "end_pos": 6,
+          "length": 7,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 52,
+          "start_pos": 7,
+          "end_pos": 10,
+          "length": 4,
+          "type": "FLOAT32",
+          "endian": "little",
+          "confidence": 1.0,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 56,
+          "start_pos": 11,
+          "end_pos": 11,
+          "length": 1,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 57,
+          "start_pos": 12,
+          "end_pos": 15,
+          "length": 4,
+          "type": "FLOAT32",
+          "endian": "little",
+          "confidence": 0.935,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 61,
+          "start_pos": 16,
+          "end_pos": 17,
+          "length": 2,
+          "type": "UINT16",
+          "endian": "little",
+          "confidence": 0.7314339828220179,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 63,
+          "start_pos": 18,
+          "end_pos": 21,
+          "length": 4,
+          "type": "UINT32",
+          "endian": "little",
+          "confidence": 0.6975,
+          "is_dynamic": false
+        }
+      ],
+      "fields_total_reward": 0.8178960633251469,
+      "fields_avg_confidence": 0.763988997137003,
+      "overlap_regions": [
+        {
+          "start": 56,
+          "end": 56,
+          "gap_length": 1
+        }
+      ],
+      "merged_from_solution_indices": [
+        0,
+        0
+      ]
+    },
+    {
+      "solution_index": 1,
+      "block_ids": [
+        1,
+        2
+      ],
+      "fields": [
+        {
+          "absolute_start_pos": 45,
+          "start_pos": 0,
+          "end_pos": 6,
+          "length": 7,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 52,
+          "start_pos": 7,
+          "end_pos": 10,
+          "length": 4,
+          "type": "FLOAT32",
+          "endian": "little",
+          "confidence": 1.0,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 56,
+          "start_pos": 11,
+          "end_pos": 11,
+          "length": 1,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 57,
+          "start_pos": 12,
+          "end_pos": 15,
+          "length": 4,
+          "type": "FLOAT32",
+          "endian": "little",
+          "confidence": 0.935,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 61,
+          "start_pos": 16,
+          "end_pos": 21,
+          "length": 6,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        }
+      ],
+      "fields_total_reward": 0.81566,
+      "fields_avg_confidence": 0.753,
+      "overlap_regions": [
+        {
+          "start": 56,
+          "end": 56,
+          "gap_length": 1
+        }
+      ],
+      "merged_from_solution_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "solution_index": 2,
+      "block_ids": [
+        1,
+        2
+      ],
+      "fields": [
+        {
+          "absolute_start_pos": 45,
+          "start_pos": 0,
+          "end_pos": 2,
+          "length": 3,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 48,
+          "start_pos": 3,
+          "end_pos": 6,
+          "length": 4,
+          "type": "UINT32",
+          "endian": "little",
+          "confidence": 0.7625000000000001,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 52,
+          "start_pos": 7,
+          "end_pos": 10,
+          "length": 4,
+          "type": "FLOAT32",
+          "endian": "little",
+          "confidence": 1.0,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 56,
+          "start_pos": 11,
+          "end_pos": 11,
+          "length": 1,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 57,
+          "start_pos": 12,
+          "end_pos": 15,
+          "length": 4,
+          "type": "FLOAT32",
+          "endian": "little",
+          "confidence": 0.935,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 61,
+          "start_pos": 16,
+          "end_pos": 17,
+          "length": 2,
+          "type": "UINT16",
+          "endian": "little",
+          "confidence": 0.7314339828220179,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 63,
+          "start_pos": 18,
+          "end_pos": 21,
+          "length": 4,
+          "type": "UINT32",
+          "endian": "little",
+          "confidence": 0.6975,
+          "is_dynamic": false
+        }
+      ],
+      "fields_total_reward": 0.8147769828501259,
+      "fields_avg_confidence": 0.7637762832602882,
+      "overlap_regions": [
+        {
+          "start": 56,
+          "end": 56,
+          "gap_length": 1
+        }
+      ],
+      "merged_from_solution_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "solution_index": 3,
+      "block_ids": [
+        1,
+        2
+      ],
+      "fields": [
+        {
+          "absolute_start_pos": 45,
+          "start_pos": 0,
+          "end_pos": 2,
+          "length": 3,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 48,
+          "start_pos": 3,
+          "end_pos": 6,
+          "length": 4,
+          "type": "UINT32",
+          "endian": "little",
+          "confidence": 0.7625000000000001,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 52,
+          "start_pos": 7,
+          "end_pos": 10,
+          "length": 4,
+          "type": "FLOAT32",
+          "endian": "little",
+          "confidence": 1.0,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 56,
+          "start_pos": 11,
+          "end_pos": 11,
+          "length": 1,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 57,
+          "start_pos": 12,
+          "end_pos": 15,
+          "length": 4,
+          "type": "FLOAT32",
+          "endian": "little",
+          "confidence": 0.935,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 61,
+          "start_pos": 16,
+          "end_pos": 21,
+          "length": 6,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        }
+      ],
+      "fields_total_reward": 0.81239375,
+      "fields_avg_confidence": 0.7545833333333333,
+      "overlap_regions": [
+        {
+          "start": 56,
+          "end": 56,
+          "gap_length": 1
+        }
+      ],
+      "merged_from_solution_indices": [
+        1,
+        1
+      ]
+    },
+    {
+      "solution_index": 4,
+      "block_ids": [
+        1,
+        2
+      ],
+      "fields": [
+        {
+          "absolute_start_pos": 45,
+          "start_pos": 0,
+          "end_pos": 4,
+          "length": 5,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 50,
+          "start_pos": 5,
+          "end_pos": 6,
+          "length": 2,
+          "type": "UINT16",
+          "endian": "little",
+          "confidence": 0.7314339828220179,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 52,
+          "start_pos": 7,
+          "end_pos": 10,
+          "length": 4,
+          "type": "FLOAT32",
+          "endian": "little",
+          "confidence": 1.0,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 56,
+          "start_pos": 11,
+          "end_pos": 11,
+          "length": 1,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 57,
+          "start_pos": 12,
+          "end_pos": 15,
+          "length": 4,
+          "type": "FLOAT32",
+          "endian": "little",
+          "confidence": 0.935,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 61,
+          "start_pos": 16,
+          "end_pos": 17,
+          "length": 2,
+          "type": "UINT16",
+          "endian": "little",
+          "confidence": 0.7314339828220179,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 63,
+          "start_pos": 18,
+          "end_pos": 21,
+          "length": 4,
+          "type": "UINT32",
+          "endian": "little",
+          "confidence": 0.6975,
+          "is_dynamic": false
+        }
+      ],
+      "fields_total_reward": 0.8121807514145374,
+      "fields_avg_confidence": 0.7593382808062908,
+      "overlap_regions": [
+        {
+          "start": 56,
+          "end": 56,
+          "gap_length": 1
+        }
+      ],
+      "merged_from_solution_indices": [
+        2,
+        0
+      ]
+    },
+    {
+      "solution_index": 5,
+      "block_ids": [
+        1,
+        2
+      ],
+      "fields": [
+        {
+          "absolute_start_pos": 45,
+          "start_pos": 0,
+          "end_pos": 6,
+          "length": 7,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 52,
+          "start_pos": 7,
+          "end_pos": 10,
+          "length": 4,
+          "type": "FLOAT32",
+          "endian": "little",
+          "confidence": 1.0,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 56,
+          "start_pos": 11,
+          "end_pos": 11,
+          "length": 1,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 57,
+          "start_pos": 12,
+          "end_pos": 15,
+          "length": 4,
+          "type": "FLOAT32",
+          "endian": "little",
+          "confidence": 0.935,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 61,
+          "start_pos": 16,
+          "end_pos": 19,
+          "length": 4,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 65,
+          "start_pos": 20,
+          "end_pos": 21,
+          "length": 2,
+          "type": "UINT16",
+          "endian": "little",
+          "confidence": 0.7314339828220179,
+          "is_dynamic": false
+        }
+      ],
+      "fields_total_reward": 0.8093648133251468,
+      "fields_avg_confidence": 0.7494056638036697,
+      "overlap_regions": [
+        {
+          "start": 56,
+          "end": 56,
+          "gap_length": 1
+        }
+      ],
+      "merged_from_solution_indices": [
+        0,
+        2
+      ]
+    },
+    {
+      "solution_index": 6,
+      "block_ids": [
+        1,
+        2
+      ],
+      "fields": [
+        {
+          "absolute_start_pos": 45,
+          "start_pos": 0,
+          "end_pos": 4,
+          "length": 5,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 50,
+          "start_pos": 5,
+          "end_pos": 6,
+          "length": 2,
+          "type": "UINT16",
+          "endian": "little",
+          "confidence": 0.7314339828220179,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 52,
+          "start_pos": 7,
+          "end_pos": 10,
+          "length": 4,
+          "type": "FLOAT32",
+          "endian": "little",
+          "confidence": 1.0,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 56,
+          "start_pos": 11,
+          "end_pos": 11,
+          "length": 1,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 57,
+          "start_pos": 12,
+          "end_pos": 15,
+          "length": 4,
+          "type": "FLOAT32",
+          "endian": "little",
+          "confidence": 0.935,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 61,
+          "start_pos": 16,
+          "end_pos": 21,
+          "length": 6,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        }
+      ],
+      "fields_total_reward": 0.8093648133251468,
+      "fields_avg_confidence": 0.7494056638036697,
+      "overlap_regions": [
+        {
+          "start": 56,
+          "end": 56,
+          "gap_length": 1
+        }
+      ],
+      "merged_from_solution_indices": [
+        2,
+        1
+      ]
+    },
+    {
+      "solution_index": 7,
+      "block_ids": [
+        1,
+        2
+      ],
+      "fields": [
+        {
+          "absolute_start_pos": 45,
+          "start_pos": 0,
+          "end_pos": 2,
+          "length": 3,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 48,
+          "start_pos": 3,
+          "end_pos": 4,
+          "length": 2,
+          "type": "UINT16",
+          "endian": "little",
+          "confidence": 0.7314339828220179,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 50,
+          "start_pos": 5,
+          "end_pos": 6,
+          "length": 2,
+          "type": "UINT16",
+          "endian": "little",
+          "confidence": 0.7314339828220179,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 52,
+          "start_pos": 7,
+          "end_pos": 10,
+          "length": 4,
+          "type": "FLOAT32",
+          "endian": "little",
+          "confidence": 1.0,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 56,
+          "start_pos": 11,
+          "end_pos": 11,
+          "length": 1,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 57,
+          "start_pos": 12,
+          "end_pos": 15,
+          "length": 4,
+          "type": "FLOAT32",
+          "endian": "little",
+          "confidence": 0.935,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 61,
+          "start_pos": 16,
+          "end_pos": 17,
+          "length": 2,
+          "type": "UINT16",
+          "endian": "little",
+          "confidence": 0.7314339828220179,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 63,
+          "start_pos": 18,
+          "end_pos": 21,
+          "length": 4,
+          "type": "UINT32",
+          "endian": "little",
+          "confidence": 0.6975,
+          "is_dynamic": false
+        }
+      ],
+      "fields_total_reward": 0.8078942674815803,
+      "fields_avg_confidence": 0.7558502435582567,
+      "overlap_regions": [
+        {
+          "start": 56,
+          "end": 56,
+          "gap_length": 1
+        }
+      ],
+      "merged_from_solution_indices": [
+        3,
+        0
+      ]
+    },
+    {
+      "solution_index": 8,
+      "block_ids": [
+        1,
+        2
+      ],
+      "fields": [
+        {
+          "absolute_start_pos": 45,
+          "start_pos": 0,
+          "end_pos": 2,
+          "length": 3,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 48,
+          "start_pos": 3,
+          "end_pos": 6,
+          "length": 4,
+          "type": "UINT32",
+          "endian": "little",
+          "confidence": 0.7625000000000001,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 52,
+          "start_pos": 7,
+          "end_pos": 10,
+          "length": 4,
+          "type": "FLOAT32",
+          "endian": "little",
+          "confidence": 1.0,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 56,
+          "start_pos": 11,
+          "end_pos": 11,
+          "length": 1,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 57,
+          "start_pos": 12,
+          "end_pos": 15,
+          "length": 4,
+          "type": "FLOAT32",
+          "endian": "little",
+          "confidence": 0.935,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 61,
+          "start_pos": 16,
+          "end_pos": 19,
+          "length": 4,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 65,
+          "start_pos": 20,
+          "end_pos": 21,
+          "length": 2,
+          "type": "UINT16",
+          "endian": "little",
+          "confidence": 0.7314339828220179,
+          "is_dynamic": false
+        }
+      ],
+      "fields_total_reward": 0.8074644828501258,
+      "fields_avg_confidence": 0.7512762832602883,
+      "overlap_regions": [
+        {
+          "start": 56,
+          "end": 56,
+          "gap_length": 1
+        }
+      ],
+      "merged_from_solution_indices": [
+        1,
+        2
+      ]
+    },
+    {
+      "solution_index": 9,
+      "block_ids": [
+        1,
+        2
+      ],
+      "fields": [
+        {
+          "absolute_start_pos": 45,
+          "start_pos": 0,
+          "end_pos": 5,
+          "length": 6,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 51,
+          "start_pos": 6,
+          "end_pos": 6,
+          "length": 1,
+          "type": "UINT8",
+          "endian": "n/a",
+          "confidence": 0.6549999999999999,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 52,
+          "start_pos": 7,
+          "end_pos": 10,
+          "length": 4,
+          "type": "FLOAT32",
+          "endian": "little",
+          "confidence": 1.0,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 56,
+          "start_pos": 11,
+          "end_pos": 11,
+          "length": 1,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 57,
+          "start_pos": 12,
+          "end_pos": 15,
+          "length": 4,
+          "type": "FLOAT32",
+          "endian": "little",
+          "confidence": 0.935,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 61,
+          "start_pos": 16,
+          "end_pos": 17,
+          "length": 2,
+          "type": "UINT16",
+          "endian": "little",
+          "confidence": 0.7314339828220179,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 63,
+          "start_pos": 18,
+          "end_pos": 21,
+          "length": 4,
+          "type": "UINT32",
+          "endian": "little",
+          "confidence": 0.6975,
+          "is_dynamic": false
+        }
+      ],
+      "fields_total_reward": 0.8057930542786973,
+      "fields_avg_confidence": 0.7484191404031454,
+      "overlap_regions": [
+        {
+          "start": 56,
+          "end": 56,
+          "gap_length": 1
+        }
+      ],
+      "merged_from_solution_indices": [
+        4,
+        0
+      ]
+    },
+    {
+      "solution_index": 10,
+      "block_ids": [
+        1,
+        2
+      ],
+      "fields": [
+        {
+          "absolute_start_pos": 45,
+          "start_pos": 0,
+          "end_pos": 5,
+          "length": 6,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 51,
+          "start_pos": 6,
+          "end_pos": 9,
+          "length": 4,
+          "type": "UINT32",
+          "endian": "big",
+          "confidence": 0.7075,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 55,
+          "start_pos": 10,
+          "end_pos": 13,
+          "length": 4,
+          "type": "FLOAT32",
+          "endian": "big",
+          "confidence": 0.935,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 59,
+          "start_pos": 14,
+          "end_pos": 14,
+          "length": 1,
+          "type": "INT8",
+          "endian": "n/a",
+          "confidence": 0.9349999999999999,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 60,
+          "start_pos": 15,
+          "end_pos": 21,
+          "length": 7,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        }
+      ],
+      "fields_total_reward": 0.827815,
+      "fields_avg_confidence": 0.7595,
+      "overlap_regions": [],
+      "merged_from_solution_indices": [
+        10,
+        10
+      ]
+    },
+    {
+      "solution_index": 11,
+      "block_ids": [
+        1,
+        2
+      ],
+      "fields": [
+        {
+          "absolute_start_pos": 45,
+          "start_pos": 0,
+          "end_pos": 5,
+          "length": 6,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 51,
+          "start_pos": 6,
+          "end_pos": 9,
+          "length": 4,
+          "type": "UINT32",
+          "endian": "big",
+          "confidence": 0.7075,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 55,
+          "start_pos": 10,
+          "end_pos": 13,
+          "length": 4,
+          "type": "FLOAT32",
+          "endian": "big",
+          "confidence": 0.935,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 59,
+          "start_pos": 14,
+          "end_pos": 14,
+          "length": 1,
+          "type": "INT8",
+          "endian": "n/a",
+          "confidence": 0.9349999999999999,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 60,
+          "start_pos": 15,
+          "end_pos": 19,
+          "length": 5,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 65,
+          "start_pos": 20,
+          "end_pos": 21,
+          "length": 2,
+          "type": "UINT16",
+          "endian": "big",
+          "confidence": 0.7314339828220179,
+          "is_dynamic": false
+        }
+      ],
+      "fields_total_reward": 0.8194939799918135,
+      "fields_avg_confidence": 0.7548223304703363,
+      "overlap_regions": [],
+      "merged_from_solution_indices": [
+        10,
+        11
+      ]
+    },
+    {
+      "solution_index": 12,
+      "block_ids": [
+        1,
+        2
+      ],
+      "fields": [
+        {
+          "absolute_start_pos": 45,
+          "start_pos": 0,
+          "end_pos": 5,
+          "length": 6,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 51,
+          "start_pos": 6,
+          "end_pos": 9,
+          "length": 4,
+          "type": "UINT32",
+          "endian": "big",
+          "confidence": 0.7075,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 55,
+          "start_pos": 10,
+          "end_pos": 13,
+          "length": 4,
+          "type": "FLOAT32",
+          "endian": "big",
+          "confidence": 0.935,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 59,
+          "start_pos": 14,
+          "end_pos": 14,
+          "length": 1,
+          "type": "INT8",
+          "endian": "n/a",
+          "confidence": 0.9349999999999999,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 60,
+          "start_pos": 15,
+          "end_pos": 20,
+          "length": 6,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 66,
+          "start_pos": 21,
+          "end_pos": 21,
+          "length": 1,
+          "type": "UINT8",
+          "endian": "n/a",
+          "confidence": 0.6549999999999999,
+          "is_dynamic": false
+        }
+      ],
+      "fields_total_reward": 0.8120416666666668,
+      "fields_avg_confidence": 0.7420833333333333,
+      "overlap_regions": [],
+      "merged_from_solution_indices": [
+        10,
+        12
+      ]
+    },
+    {
+      "solution_index": 13,
+      "block_ids": [
+        1,
+        2
+      ],
+      "fields": [
+        {
+          "absolute_start_pos": 45,
+          "start_pos": 0,
+          "end_pos": 5,
+          "length": 6,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 51,
+          "start_pos": 6,
+          "end_pos": 9,
+          "length": 4,
+          "type": "UINT32",
+          "endian": "big",
+          "confidence": 0.7075,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 55,
+          "start_pos": 10,
+          "end_pos": 13,
+          "length": 4,
+          "type": "FLOAT32",
+          "endian": "big",
+          "confidence": 0.935,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 59,
+          "start_pos": 14,
+          "end_pos": 14,
+          "length": 1,
+          "type": "INT8",
+          "endian": "n/a",
+          "confidence": 0.9349999999999999,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 60,
+          "start_pos": 15,
+          "end_pos": 15,
+          "length": 1,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 61,
+          "start_pos": 16,
+          "end_pos": 19,
+          "length": 4,
+          "type": "UINT32",
+          "endian": "big",
+          "confidence": 0.6975,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 65,
+          "start_pos": 20,
+          "end_pos": 21,
+          "length": 2,
+          "type": "UINT16",
+          "endian": "big",
+          "confidence": 0.7314339828220179,
+          "is_dynamic": false
+        }
+      ],
+      "fields_total_reward": 0.8107144828501258,
+      "fields_avg_confidence": 0.7466334261174311,
+      "overlap_regions": [],
+      "merged_from_solution_indices": [
+        10,
+        18
+      ]
+    },
+    {
+      "solution_index": 14,
+      "block_ids": [
+        1,
+        2
+      ],
+      "fields": [
+        {
+          "absolute_start_pos": 45,
+          "start_pos": 0,
+          "end_pos": 5,
+          "length": 6,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 51,
+          "start_pos": 6,
+          "end_pos": 9,
+          "length": 4,
+          "type": "UINT32",
+          "endian": "big",
+          "confidence": 0.7075,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 55,
+          "start_pos": 10,
+          "end_pos": 13,
+          "length": 4,
+          "type": "FLOAT32",
+          "endian": "big",
+          "confidence": 0.935,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 59,
+          "start_pos": 14,
+          "end_pos": 14,
+          "length": 1,
+          "type": "INT8",
+          "endian": "n/a",
+          "confidence": 0.9349999999999999,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 60,
+          "start_pos": 15,
+          "end_pos": 18,
+          "length": 4,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 64,
+          "start_pos": 19,
+          "end_pos": 21,
+          "length": 3,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        }
+      ],
+      "fields_total_reward": 0.8076541666666668,
+      "fields_avg_confidence": 0.7345833333333333,
+      "overlap_regions": [],
+      "merged_from_solution_indices": [
+        10,
+        13
+      ]
+    },
+    {
+      "solution_index": 15,
+      "block_ids": [
+        1,
+        2
+      ],
+      "fields": [
+        {
+          "absolute_start_pos": 45,
+          "start_pos": 0,
+          "end_pos": 5,
+          "length": 6,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 51,
+          "start_pos": 6,
+          "end_pos": 9,
+          "length": 4,
+          "type": "UINT32",
+          "endian": "big",
+          "confidence": 0.7075,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 55,
+          "start_pos": 10,
+          "end_pos": 13,
+          "length": 4,
+          "type": "FLOAT32",
+          "endian": "big",
+          "confidence": 0.935,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 59,
+          "start_pos": 14,
+          "end_pos": 14,
+          "length": 1,
+          "type": "INT8",
+          "endian": "n/a",
+          "confidence": 0.9349999999999999,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 60,
+          "start_pos": 15,
+          "end_pos": 17,
+          "length": 3,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 63,
+          "start_pos": 18,
+          "end_pos": 21,
+          "length": 4,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        }
+      ],
+      "fields_total_reward": 0.8076541666666668,
+      "fields_avg_confidence": 0.7345833333333333,
+      "overlap_regions": [],
+      "merged_from_solution_indices": [
+        10,
+        14
+      ]
+    },
+    {
+      "solution_index": 16,
+      "block_ids": [
+        1,
+        2
+      ],
+      "fields": [
+        {
+          "absolute_start_pos": 45,
+          "start_pos": 0,
+          "end_pos": 1,
+          "length": 2,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 47,
+          "start_pos": 2,
+          "end_pos": 9,
+          "length": 8,
+          "type": "UINT64",
+          "endian": "big",
+          "confidence": 0.5125,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 55,
+          "start_pos": 10,
+          "end_pos": 13,
+          "length": 4,
+          "type": "FLOAT32",
+          "endian": "big",
+          "confidence": 0.935,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 59,
+          "start_pos": 14,
+          "end_pos": 14,
+          "length": 1,
+          "type": "INT8",
+          "endian": "n/a",
+          "confidence": 0.9349999999999999,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 60,
+          "start_pos": 15,
+          "end_pos": 21,
+          "length": 7,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        }
+      ],
+      "fields_total_reward": 0.8024650000000002,
+      "fields_avg_confidence": 0.7205,
+      "overlap_regions": [],
+      "merged_from_solution_indices": [
+        13,
+        10
+      ]
+    },
+    {
+      "solution_index": 17,
+      "block_ids": [
+        1,
+        2
+      ],
+      "fields": [
+        {
+          "absolute_start_pos": 45,
+          "start_pos": 0,
+          "end_pos": 5,
+          "length": 6,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 51,
+          "start_pos": 6,
+          "end_pos": 9,
+          "length": 4,
+          "type": "UINT32",
+          "endian": "big",
+          "confidence": 0.7075,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 55,
+          "start_pos": 10,
+          "end_pos": 13,
+          "length": 4,
+          "type": "FLOAT32",
+          "endian": "big",
+          "confidence": 0.935,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 59,
+          "start_pos": 14,
+          "end_pos": 14,
+          "length": 1,
+          "type": "INT8",
+          "endian": "n/a",
+          "confidence": 0.9349999999999999,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 60,
+          "start_pos": 15,
+          "end_pos": 19,
+          "length": 5,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 65,
+          "start_pos": 20,
+          "end_pos": 20,
+          "length": 1,
+          "type": "UINT8",
+          "endian": "n/a",
+          "confidence": 0.6549999999999999,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 66,
+          "start_pos": 21,
+          "end_pos": 21,
+          "length": 1,
+          "type": "UINT8",
+          "endian": "n/a",
+          "confidence": 0.6549999999999999,
+          "is_dynamic": false
+        }
+      ],
+      "fields_total_reward": 0.800775,
+      "fields_avg_confidence": 0.7296428571428571,
+      "overlap_regions": [],
+      "merged_from_solution_indices": [
+        10,
+        17
+      ]
+    },
+    {
+      "solution_index": 18,
+      "block_ids": [
+        1,
+        2
+      ],
+      "fields": [
+        {
+          "absolute_start_pos": 45,
+          "start_pos": 0,
+          "end_pos": 5,
+          "length": 6,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 51,
+          "start_pos": 6,
+          "end_pos": 7,
+          "length": 2,
+          "type": "UINT16",
+          "endian": "big",
+          "confidence": 0.935,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 53,
+          "start_pos": 8,
+          "end_pos": 9,
+          "length": 2,
+          "type": "UINT16",
+          "endian": "big",
+          "confidence": 0.6100000000000001,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 55,
+          "start_pos": 10,
+          "end_pos": 13,
+          "length": 4,
+          "type": "FLOAT32",
+          "endian": "big",
+          "confidence": 0.935,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 59,
+          "start_pos": 14,
+          "end_pos": 14,
+          "length": 1,
+          "type": "INT8",
+          "endian": "n/a",
+          "confidence": 0.9349999999999999,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 60,
+          "start_pos": 15,
+          "end_pos": 21,
+          "length": 7,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        }
+      ],
+      "fields_total_reward": 0.7989083333333334,
+      "fields_avg_confidence": 0.7725,
+      "overlap_regions": [],
+      "merged_from_solution_indices": [
+        12,
+        10
+      ]
+    },
+    {
+      "solution_index": 19,
+      "block_ids": [
+        1,
+        2
+      ],
+      "fields": [
+        {
+          "absolute_start_pos": 45,
+          "start_pos": 0,
+          "end_pos": 1,
+          "length": 2,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 47,
+          "start_pos": 2,
+          "end_pos": 9,
+          "length": 8,
+          "type": "UINT64",
+          "endian": "big",
+          "confidence": 0.5125,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 55,
+          "start_pos": 10,
+          "end_pos": 13,
+          "length": 4,
+          "type": "FLOAT32",
+          "endian": "big",
+          "confidence": 0.935,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 59,
+          "start_pos": 14,
+          "end_pos": 14,
+          "length": 1,
+          "type": "INT8",
+          "endian": "n/a",
+          "confidence": 0.9349999999999999,
+          "is_dynamic": true
+        },
+        {
+          "absolute_start_pos": 60,
+          "start_pos": 15,
+          "end_pos": 19,
+          "length": 5,
+          "type": "BINARY_DATA",
+          "endian": "n/a",
+          "confidence": 0.61,
+          "is_dynamic": false
+        },
+        {
+          "absolute_start_pos": 65,
+          "start_pos": 20,
+          "end_pos": 21,
+          "length": 2,
+          "type": "UINT16",
+          "endian": "big",
+          "confidence": 0.7314339828220179,
+          "is_dynamic": false
+        }
+      ],
+      "fields_total_reward": 0.7983689799918134,
+      "fields_avg_confidence": 0.7223223304703362,
+      "overlap_regions": [],
+      "merged_from_solution_indices": [
+        13,
+        11
+      ]
+    }
+  ]
+}

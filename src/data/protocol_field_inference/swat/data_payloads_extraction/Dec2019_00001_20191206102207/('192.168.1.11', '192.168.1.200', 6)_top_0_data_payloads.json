@@ -1,0 +1,389 @@
+{
+  "metadata": {
+    "pcap_file": "src/data/protocol_field_inference/swat/period_packets_extraction/Dec2019_00001_20191206102207/('192.168.1.11', '192.168.1.200', 6)_top_0.pcap",
+    "period": 6,
+    "protocol": "enip"
+  },
+  "period_payloads_with_timestamps": [
+    {
+      "timestamp": 1575598927.617892,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575598932.625145,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575598937.629354,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575598942.636131,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575598947.639493,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575598952.645216,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575598957.649842,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575598962.654622,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575598967.659453,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575598972.664551,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575598977.667859,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575598982.676561,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575598987.678608,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575598992.683803,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575598997.686837,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599002.692966,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599007.69591,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599012.702127,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599017.707128,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599022.711398,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599027.725044,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599032.728205,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599037.742003,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599042.744197,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599047.749112,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599052.75328,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599057.756432,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599062.759056,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599067.766633,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599072.772681,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599077.778529,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599082.782703,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599087.786107,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599092.789863,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599097.79378,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599102.798256,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599107.804088,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599112.807314,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599117.813109,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599122.818431,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599127.822336,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599132.832512,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599137.837382,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599142.840773,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599147.846628,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599152.851452,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599157.856272,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599162.861053,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599167.863409,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599172.868107,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599177.874033,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599182.882775,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599187.889219,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599192.892256,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599197.896532,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599202.902245,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599207.910027,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599212.921432,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599217.926256,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599222.929535,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599227.931994,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599232.937487,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599237.941278,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599242.944982,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599247.951912,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599252.954951,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599257.9569,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599262.963244,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599267.971016,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599272.979237,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599277.984293,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599282.992661,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599287.998305,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599293.001483,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599298.006645,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599303.011661,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599308.016574,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599313.021827,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599318.022896,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599323.026938,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599328.03213,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599333.035287,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599338.045015,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599343.049423,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599348.054399,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599353.060576,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599358.066483,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599363.069778,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599368.072685,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599373.077452,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599378.082687,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599383.091957,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599388.097823,
+      "payloads": []
+    },
+    {
+      "timestamp": 1575599393.104108,
+      "payloads": []
+    }
+  ],
+  "statistics": {
+    "total_periods": 94,
+    "total_data_payloads": 0
+  }
+}

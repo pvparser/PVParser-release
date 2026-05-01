@@ -1,0 +1,650 @@
+{
+  "AIT402.Pv": {
+    "group_id": "4",
+    "session_key": [
+      "192.168.1.200",
+      "192.168.1.40",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 24,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_7",
+      "is_dynamic": true,
+      "confidence": 0.8049999999999999
+    }
+  },
+  "FIT401.Pv": {
+    "group_id": "4",
+    "session_key": [
+      "192.168.1.200",
+      "192.168.1.40",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 46,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_14",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  },
+  "LIT401.Pv": {
+    "group_id": "4",
+    "session_key": [
+      "192.168.1.200",
+      "192.168.1.40",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 71,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_22",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  },
+  "FIT101.Pv": {
+    "group_id": "1",
+    "session_key": [
+      "192.168.1.10",
+      "192.168.1.200",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 16,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_5",
+      "is_dynamic": true,
+      "confidence": 0.8375
+    }
+  },
+  "LIT101.Pv": {
+    "group_id": "1",
+    "session_key": [
+      "192.168.1.10",
+      "192.168.1.200",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 41,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_11",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  },
+  "MV101.Status": {
+    "group_id": "1",
+    "session_key": [
+      "192.168.1.10",
+      "192.168.1.200",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 64,
+      "length": 1,
+      "type": "UINT8",
+      "endian": "n/a",
+      "field_name": "field_19",
+      "is_dynamic": true,
+      "confidence": 0.9349999999999999
+    }
+  },
+  "P101.Status": {
+    "group_id": "1",
+    "session_key": [
+      "192.168.1.10",
+      "192.168.1.200",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 79,
+      "length": 2,
+      "type": "UINT16",
+      "endian": "little",
+      "field_name": "field_27",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  },
+  "AIT201.Pv": {
+    "group_id": "2",
+    "session_key": [
+      "192.168.1.20",
+      "192.168.1.200",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 3,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_2",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  },
+  "AIT202.Pv": {
+    "group_id": "2",
+    "session_key": [
+      "192.168.1.20",
+      "192.168.1.200",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 24,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_7",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  },
+  "AIT203.Pv": {
+    "group_id": "2",
+    "session_key": [
+      "192.168.1.20",
+      "192.168.1.200",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 45,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_13",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  },
+  "FIT201.Pv": {
+    "group_id": "2",
+    "session_key": [
+      "192.168.1.20",
+      "192.168.1.200",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 67,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_19",
+      "is_dynamic": true,
+      "confidence": 0.935
+    }
+  },
+  "MV201.Status": {
+    "group_id": "2",
+    "session_key": [
+      "192.168.1.20",
+      "192.168.1.200",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 114,
+      "length": 1,
+      "type": "UINT8",
+      "endian": "n/a",
+      "field_name": "field_31",
+      "is_dynamic": true,
+      "confidence": 0.9349999999999999
+    }
+  },
+  "P203.Status": {
+    "group_id": "2",
+    "session_key": [
+      "192.168.1.20",
+      "192.168.1.200",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 117,
+      "length": 2,
+      "type": "UINT16",
+      "endian": "little",
+      "field_name": "field_33",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  },
+  "P201.Status": {
+    "group_id": "2",
+    "session_key": [
+      "192.168.1.20",
+      "192.168.1.200",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 124,
+      "length": 2,
+      "type": "UINT16",
+      "endian": "little",
+      "field_name": "field_36",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  },
+  "AIT301.Pv": {
+    "group_id": "3",
+    "session_key": [
+      "192.168.1.200",
+      "192.168.1.30",
+      6
+    ],
+    "solution_index": 10,
+    "field_spec": {
+      "start_pos": 3,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_1",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  },
+  "AIT302.Pv": {
+    "group_id": "3",
+    "session_key": [
+      "192.168.1.200",
+      "192.168.1.30",
+      6
+    ],
+    "solution_index": 10,
+    "field_spec": {
+      "start_pos": 8,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_3",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  },
+  "AIT303.Pv": {
+    "group_id": "3",
+    "session_key": [
+      "192.168.1.200",
+      "192.168.1.30",
+      6
+    ],
+    "solution_index": 10,
+    "field_spec": {
+      "start_pos": 13,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_5",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  },
+  "DPIT301.Pv": {
+    "group_id": "3",
+    "session_key": [
+      "192.168.1.200",
+      "192.168.1.30",
+      6
+    ],
+    "solution_index": 10,
+    "field_spec": {
+      "start_pos": 22,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_8",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  },
+  "FIT301.Pv": {
+    "group_id": "3",
+    "session_key": [
+      "192.168.1.200",
+      "192.168.1.30",
+      6
+    ],
+    "solution_index": 10,
+    "field_spec": {
+      "start_pos": 51,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_16",
+      "is_dynamic": true,
+      "confidence": 0.935
+    }
+  },
+  "P301.Status": {
+    "group_id": "3",
+    "session_key": [
+      "192.168.1.200",
+      "192.168.1.30",
+      6
+    ],
+    "solution_index": 10,
+    "field_spec": {
+      "start_pos": 102,
+      "length": 2,
+      "type": "UINT16",
+      "endian": "little",
+      "field_name": "field_32",
+      "is_dynamic": true,
+      "confidence": 0.74
+    }
+  },
+  "MV302.Status": {
+    "group_id": "3",
+    "session_key": [
+      "192.168.1.200",
+      "192.168.1.30",
+      6
+    ],
+    "solution_index": 10,
+    "field_spec": {
+      "start_pos": 104,
+      "length": 1,
+      "type": "UINT8",
+      "endian": "n/a",
+      "field_name": "field_33",
+      "is_dynamic": true,
+      "confidence": 0.87
+    }
+  },
+  "MV303.Status": {
+    "group_id": "3",
+    "session_key": [
+      "192.168.1.200",
+      "192.168.1.30",
+      6
+    ],
+    "solution_index": 10,
+    "field_spec": {
+      "start_pos": 109,
+      "length": 1,
+      "type": "UINT8",
+      "endian": "n/a",
+      "field_name": "field_36",
+      "is_dynamic": true,
+      "confidence": 0.87
+    }
+  },
+  "MV304.Status": {
+    "group_id": "3",
+    "session_key": [
+      "192.168.1.200",
+      "192.168.1.30",
+      6
+    ],
+    "solution_index": 10,
+    "field_spec": {
+      "start_pos": 114,
+      "length": 1,
+      "type": "UINT8",
+      "endian": "n/a",
+      "field_name": "field_39",
+      "is_dynamic": true,
+      "confidence": 0.87
+    }
+  },
+  "LIT301.Pv": {
+    "group_id": "3",
+    "session_key": [
+      "192.168.1.200",
+      "192.168.1.30",
+      6
+    ],
+    "solution_index": 10,
+    "field_spec": {
+      "start_pos": 151,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_53",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  },
+  "AIT501.Pv": {
+    "group_id": "5",
+    "session_key": [
+      "192.168.1.200",
+      "192.168.1.50",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 3,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_1",
+      "is_dynamic": true,
+      "confidence": 0.935
+    }
+  },
+  "AIT502.Pv": {
+    "group_id": "5",
+    "session_key": [
+      "192.168.1.200",
+      "192.168.1.50",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 24,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_8",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  },
+  "AIT503.Pv": {
+    "group_id": "5",
+    "session_key": [
+      "192.168.1.200",
+      "192.168.1.50",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 45,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_15",
+      "is_dynamic": true,
+      "confidence": 0.935
+    }
+  },
+  "AIT504.Pv": {
+    "group_id": "5",
+    "session_key": [
+      "192.168.1.200",
+      "192.168.1.50",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 66,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_20",
+      "is_dynamic": true,
+      "confidence": 0.935
+    }
+  },
+  "FIT501.Pv": {
+    "group_id": "5",
+    "session_key": [
+      "192.168.1.200",
+      "192.168.1.50",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 84,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_25",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  },
+  "FIT502.Pv": {
+    "group_id": "5",
+    "session_key": [
+      "192.168.1.200",
+      "192.168.1.50",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 110,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_33",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  },
+  "FIT503.Pv": {
+    "group_id": "5",
+    "session_key": [
+      "192.168.1.200",
+      "192.168.1.50",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 136,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_43",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  },
+  "PIT501.Pv": {
+    "group_id": "5",
+    "session_key": [
+      "192.168.1.200",
+      "192.168.1.50",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 262,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_76",
+      "is_dynamic": true,
+      "confidence": 0.935
+    }
+  },
+  "PIT502.Pv": {
+    "group_id": "5",
+    "session_key": [
+      "192.168.1.200",
+      "192.168.1.50",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 283,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_82",
+      "is_dynamic": true,
+      "confidence": 0.935
+    }
+  },
+  "PIT503.Pv": {
+    "group_id": "5",
+    "session_key": [
+      "192.168.1.200",
+      "192.168.1.50",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 304,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_89",
+      "is_dynamic": true,
+      "confidence": 0.935
+    }
+  },
+  "FIT601.Pv": {
+    "group_id": "6",
+    "session_key": [
+      "192.168.1.200",
+      "192.168.1.60",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 4,
+      "length": 4,
+      "type": "FLOAT32",
+      "endian": "little",
+      "field_name": "field_3",
+      "is_dynamic": true,
+      "confidence": 0.935
+    }
+  },
+  "P601.Status": {
+    "group_id": "6",
+    "session_key": [
+      "192.168.1.200",
+      "192.168.1.60",
+      6
+    ],
+    "solution_index": 0,
+    "field_spec": {
+      "start_pos": 59,
+      "length": 2,
+      "type": "UINT16",
+      "endian": "little",
+      "field_name": "field_13",
+      "is_dynamic": true,
+      "confidence": 1.0
+    }
+  }
+}
