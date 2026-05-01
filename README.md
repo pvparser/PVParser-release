@@ -10,4 +10,3 @@ In accordance with the open-science statement in the manuscript, this repository
 
 The experimental evaluation in the manuscript is conducted on the SCADA Network, SWaT, and WADI industrial CPS datasets. These datasets originate from external research testbeds and cannot be publicly redistributed due to access agreements.
   
-  
